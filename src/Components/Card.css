@@ -1,0 +1,100 @@
+.voice-recorder-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.voice-recorder {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 50%;
+  height: 50vh;
+  /* background-color: white; */
+  background-color: whitesmoke;
+  border-radius: 15px;
+  opacity: 0.7;
+  backdrop-filter: blur(5px);
+  box-shadow: 1px 1px 3px 1px rgb(145, 139, 139);
+  display: flex;
+}
+
+.card-body {
+  width: 100%;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-family: monospace;
+  text-shadow: 0 0 20px #a2baeb;
+}
+
+.audio-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.recapture-btn {
+  width: 50%;
+  background-color: #729aff;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-weight: 900;
+  font-family: monospace;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.upload-btn {
+  width: 50%;
+  background-color: #00b73a;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-weight: 900;
+  font-family: monospace;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.recording-btn {
+  width: 25%;
+  background-color: #00b73a;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-weight: 900;
+  font-family: monospace;
+  font-size: 1em;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
